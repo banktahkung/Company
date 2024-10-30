@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart Tracking System</title>
+    <link rel="stylesheet" type="text/css" href="css/cartshowcase.css" />
+    <script src="/js/cartshowcase.js"></script>
+    <script src="/js/attribute.js"></script>
+  </head>
+
+  <body>
+    <div class="toolTip">
+      
+    </div>
+    <div class="HeaderContainer">
+      <h1 class="Header">Cart Tracking System</div>
+    </div>
+
+    <div class="MapContainer">
+      <div class="Map">
+        <div class="FirstFloor" id="FirstFloor"></div>
+        <div class="SecondFloor"></div>
+
+        <div class="ThirdFloor"></div>
+      </div>
+    </div>
+
+    <div class="CartHeaderContainer">
+      <div class="CartHeader">Current Cart</div>
+      <div class="CartSTD">
+        <div class="CartSTDHeader">Current STD :</div>
+        <div class="CartSTDValue">02:01.153</div>
+      </div>
+    </div>
+
+    <div class="ResultContainer">
+      <div class="ResultShowcase">
+        <div class="a" style="margin-top: 5px; position: relative; width: 95%">
+          <div
+            class="CartTable"
+            style="
+              top: 0px;
+              position: sticky;
+              background: linear-gradient(
+                to bottom,
+                #fff,
+                #fff,
+                #fff,
+                #fff,
+                #fff,
+                #fff,
+                #fff,
+                rgb(0, 0, 0, 0)
+              );
+              z-index: 100;
+            "
+          >
+            <div class="CartColor">Color</div>
+            <div class="CartID">Cart ID</div>
+            <div class="Status">Status</div>
+            <div class="StartTime">Start Time</div>
+            <div class="EndTime">End Time</div>
+            <div class="TimeDiff">Time Different</div>
+            <div class="STDDiff">STD Different</div>
+          </div>
+          <div class="TableBody"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="CartHeaderContainer">
+      <div class="CartHeader">Cart History</div>
+    </div>
+    <div class="CartHistoryContainer">
+      <div class="CartHistoryShowcase">
+        <div class="a" style="margin-top: 5px; position: relative; width: 95%">
+          <div
+            class="CartTable"
+            style="
+              top: 0px;
+              width: 100%;
+              position: sticky;
+              background: linear-gradient(
+                to bottom,
+                #fff,
+                #fff,
+                #fff,
+                #fff,
+                #fff,
+                #fff,
+                #fff,
+                rgb(0, 0, 0, 0)
+              );
+              z-index: 100;
+            "
+          >
+            <div
+              class="CartIDContainer"
+              style="
+                width: 10%;
+                display: flex;
+                align-items: center;
+                position: relative;
+              "
+            >
+              <div class="CartID" style="width: 100%;">Cart ID</div>
+            </div>
+            <div
+              class="InformationContainer"
+              style="
+                display: flex;
+                align-items: center;
+                width: 90%;
+                position: relative;
+              "
+            >
+              <div class="Date">Date</div>
+              <div class="OperationID">Operation ID</div>
+              <div class="StartTime">Start Time</div>
+              <div class="EndTime">End Time</div>
+              <div class="CollectedItem">Collected Items</div>
+              <div class="TimeDiff">Time Different</div>
+            </div>
+          </div>
+          <div class="HistoryBody" id="HistoryBody">
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

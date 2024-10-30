@@ -1,0 +1,20 @@
+{
+  "name": "company",
+  "version": "1.0.0",
+  "description": "This project reserves for the NEC Platform. Attempt to reverse engineering or using in a financial will result in violate the purpose of this system",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "keywords": [
+    "cart"
+  ],
+  "author": "Thanachart Wangphembundit",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "nodemon": "^3.1.7"
+  }
+}
