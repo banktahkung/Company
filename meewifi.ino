@@ -3,11 +3,11 @@
 #include <ArduinoJson.h>
 #include <stdlib.h>
 
-#define S0 16  // Frequency scaling pin
-#define S1 17  // Frequency scaling pin
-#define S2 18  // Photodiode selection pin
-#define S3 19  // Photodiode selection pin
-#define sensorOut 4  // Output pin for frequency reading
+#define S0 16  // Frequency scaling pin RX1
+#define S1 17  // Frequency scaling pin TX1
+#define S2 18  // Photodiode selection pin D18
+#define S3 19  // Photodiode selection pin D19
+#define sensorOut 4  // Output pin for frequency reading D4
 
 /* Calibration values */
 const int R_Min = 4, R_Max = 41;
